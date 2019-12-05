@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+#rotation {
+    animation: rotation 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotation {
+    from{
+        transform: rotateZ(0deg);
+
+    }
+    to{
+        transform: rotateZ(360deg);
+
+    }
+}
+
+#cube {
+    animation: cube 35s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes cube {
+    from{
+        transform: rotateZ(0deg);
+
+    }
+    to{
+        transform: rotateZ(360deg);
+
+    }
+}
