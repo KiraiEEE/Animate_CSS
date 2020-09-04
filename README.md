@@ -1,3 +1,1 @@
-
-# Animating SVG via CSS KeyFrame
-just learning :p
+# teaching purpose
